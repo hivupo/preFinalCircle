@@ -37,7 +37,7 @@
         },
         {
           "type": "formula",
-          "expr": "(360 * datum.alpha + 120) % 360",
+          "expr": "(360 * datum.alpha + 127) % 360",
           "as":   "angle"
         },
         {
