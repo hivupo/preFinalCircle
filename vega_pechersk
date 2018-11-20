@@ -47,12 +47,12 @@
         },
         {
           "type": "formula",
-          "expr": "originX + 75 * datum.beta * cos(PI * datum.angle / 180)",
+          "expr": "originX + 45 * datum.beta * cos(PI * datum.angle / 180)",
           "as":   "x"
         },
         {
           "type": "formula",
-          "expr": "originY + 75 * datum.beta * sin(PI * datum.angle / 180)",
+          "expr": "originY + 45 * datum.beta * sin(PI * datum.angle / 180)",
           "as":   "y"
         }
       ]
