@@ -37,7 +37,7 @@
         },
         {
           "type": "formula",
-          "expr": "(360 * datum.alpha + 270) % 360",
+          "expr": "(360 * datum.alpha + 120) % 360",
           "as":   "angle"
         },
         {
@@ -47,12 +47,12 @@
         },
         {
           "type": "formula",
-          "expr": "originX + 145 * datum.beta * cos(PI * datum.angle / 180)",
+          "expr": "originX + 125 * datum.beta * cos(PI * datum.angle / 180)",
           "as":   "x"
         },
         {
           "type": "formula",
-          "expr": "originY + 145 * datum.beta * sin(PI * datum.angle / 180)",
+          "expr": "originY + 125 * datum.beta * sin(PI * datum.angle / 180)",
           "as":   "y"
         }
       ]
@@ -99,7 +99,7 @@
         "enter": {
           "text": {"field": "name"},
           "baseline": {"value": "middle"},
-          "tooltip": {"signal": "'Бюджет : '+datum.budget"}
+          "tooltip": {"signal": "'Бюджет : '+datum.budget+' грн'"}
         },
         "update": {
           "x": {"field": "x"},
